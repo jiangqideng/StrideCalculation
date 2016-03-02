@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:id="@+id/my_title"
+    >
+
+    <ImageButton
+        android:id="@+id/imageButtonNaruto"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="#00ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher"
+         />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今日步数" 
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/textViewTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="" />
+    
+    <ImageButton
+        android:id="@+id/imageButtonMenu"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="#00ffffff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bg_button_menu"
+		android:layout_toLeftOf="@id/textViewTitle2"
+         />
+
+
+
+</RelativeLayout>

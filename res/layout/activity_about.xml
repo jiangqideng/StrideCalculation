@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_book"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机计步神器"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+         />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+		android:layout_marginTop="20dp"
+         />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V1.2" 
+        android:layout_gravity="center"
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="作者：姜姜爱学习\n欢迎提出优化建议：jiangqideng@163.com"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+         />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+# view AndroidManifest.xml #generated:62
+-keep class com.example.stridecalculation.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.example.stridecalculation.BackgroundService { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.example.stridecalculation.HistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.example.stridecalculation.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.example.stridecalculation.NoteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.example.stridecalculation.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.example.stridecalculation.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.example.stridecalculation.TheoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.qq.e.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.qq.e.comm.DownloadService { <init>(...); }
+

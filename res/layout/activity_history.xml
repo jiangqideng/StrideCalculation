@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_book"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:text="日期" 
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/myColor2"
+            />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="步数" 
+            android:textSize="15sp"
+            android:textColor="@color/myColor2"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="时间(min)" 
+            android:textSize="15sp"
+            android:textColor="@color/myColor2"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="距离(m)" 
+            android:textSize="15sp"
+            android:textColor="@color/myColor2"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="消耗(cal)" 
+            android:textSize="15sp"
+            android:textColor="@color/myColor2"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+	<ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+         >
+    </ListView>
+    
+    <RelativeLayout
+	    android:id="@+id/extraLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	     >
+	</RelativeLayout>
+
+</LinearLayout>

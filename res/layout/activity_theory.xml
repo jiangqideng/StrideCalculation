@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_book"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+        android:text="1. 对加速度数据进行低通滤波处理，当幅度与步伐频率在某一范围内则判断为一次步伐。\n\n2. 为防止乘车等情况下水平加速度导致的错误计步，本程序提取出重力方向的加速度进行步伐判别，因此仅水平方向的震动不会计步。\n\n3. 为防止日常生活中其他形式的非步伐手机震动，连续两次及以上的步伐才被记录。\n\n4. 由于不同手机传感器精度与速率的差异，默认的计步灵敏度40也许不能精确地记录您的步伐，您可以在设置中对灵敏度进行调整。" />
+
+</LinearLayout>

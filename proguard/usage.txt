@@ -1,0 +1,257 @@
+com.example.stridecalculation.BackgroundService$DatabaseHelper:
+    private static final java.lang.String DB_NAME
+    private static final int version
+com.example.stridecalculation.BuildConfig
+com.example.stridecalculation.HistoryActivity$DatabaseHelper:
+    private static final java.lang.String DB_NAME
+    private static final int version
+com.example.stridecalculation.MainActivity:
+    public static final int FLAG_HOMEKEY_DISPATCHED
+com.example.stridecalculation.MainActivity$DatabaseHelper:
+    private static final java.lang.String DB_NAME
+    private static final int version
+com.example.stridecalculation.R
+com.example.stridecalculation.R$array
+com.example.stridecalculation.R$attr
+com.example.stridecalculation.R$color
+com.example.stridecalculation.R$dimen
+com.example.stridecalculation.R$drawable
+com.example.stridecalculation.R$id
+com.example.stridecalculation.R$layout
+com.example.stridecalculation.R$menu
+com.example.stridecalculation.R$string
+com.example.stridecalculation.R$style
+com.example.stridecalculation.R$xml
+com.example.stridecalculation.SettingActivity$DatabaseHelper:
+    private static final java.lang.String DB_NAME
+    private static final int version
+com.example.stridecalculation.WalkRecord:
+    243:244:public void setDateToday(java.lang.String)
+    257:258:public void setPath(int)
+    271:272:public void setActiveTime(long)
+    285:286:public void setDistance(int)
+    299:300:public void setCalorie(int)
+com.tencent.mid.api.MidConstants
+com.tencent.mid.api.MidEntity:
+    public static final java.lang.String TAG_MID
+    public static final java.lang.String TAG_IMEI
+    public static final java.lang.String TAG_MAC
+    public static final java.lang.String TAG_TIMESTAMPS
+    public long getTimestamps()
+    public java.lang.String getImei()
+    public java.lang.String getMac()
+com.tencent.mid.api.MidService:
+    private static boolean a(android.content.Context,com.tencent.mid.api.MidCallback)
+    public static void requestMid(android.content.Context,com.tencent.mid.api.MidCallback)
+    private static void b(android.content.Context,com.tencent.mid.api.MidCallback)
+    public static void enableDebug(boolean)
+com.tencent.mid.api.a
+com.tencent.mid.b.c:
+    protected void c()
+com.tencent.mid.b.d:
+    protected void c()
+com.tencent.mid.b.e:
+    protected void c()
+com.tencent.mid.b.f:
+    void i()
+    protected abstract void c()
+com.tencent.mid.b.g:
+    public void c()
+com.tencent.mid.util.Util:
+    public Util()
+    public static java.lang.String bytesToString(byte[])
+    public static byte[] StringToBytes(java.lang.String)
+    public static void clear(android.content.Context)
+    public static java.lang.String md5(java.lang.String)
+    public static org.apache.http.HttpHost getHttpProxy()
+    public static java.lang.String getSimOperator(android.content.Context)
+    public static java.lang.String getDeviceModel()
+    public static java.lang.Integer getTelephonyNetworkType(android.content.Context)
+    public static java.lang.String getExternalStorageInfo(android.content.Context)
+    public static android.util.DisplayMetrics getDisplayMetrics(android.content.Context)
+    public static java.lang.String getLinkedWay(android.content.Context)
+com.tencent.stat.EasyActivity
+com.tencent.stat.EasyListActivity
+com.tencent.stat.MtaSDkException
+com.tencent.stat.NetworkMonitor:
+    public long getMillisecondsConsume()
+    public int getStatusCode()
+    public java.lang.String getDomain()
+    public int getPort()
+    public java.lang.String getRemoteIp()
+com.tencent.stat.StatAccount
+com.tencent.stat.StatAppMonitor
+com.tencent.stat.StatConfig:
+    public StatConfig()
+    static boolean a(int,int,int)
+    public static void setDebugEnable(boolean)
+    public static void setSessionTimoutMillis(int)
+    public static void setMaxBatchReportCount(int)
+    public static void setMaxSendRetryCount(int)
+    public static void setMaxStoreEventCount(int)
+    public static java.lang.String getCustomProperty(java.lang.String)
+    public static java.lang.String getCustomProperty(java.lang.String,java.lang.String)
+    static void a(android.content.Context,java.lang.String)
+    static java.lang.String a(android.content.Context)
+    private static boolean a(java.lang.String)
+    public static void setAppKey(android.content.Context,java.lang.String)
+    public static void setAppKey(java.lang.String)
+    public static void setInstallChannel(java.lang.String)
+    public static void setInstallChannel(android.content.Context,java.lang.String)
+    public static java.lang.String getQQ()
+    public static void setQQ(android.content.Context,java.lang.String)
+    public static void setSendPeriodMinutes(int)
+    public static int getMaxParallelTimmingEvents()
+    public static void setMaxParallelTimmingEvents(int)
+    public static void setEnableSmartReporting(boolean)
+    public static void setAutoExceptionCaught(boolean)
+    public static void setStatReportUrl(java.lang.String)
+    public static void setMaxSessionStatReportCount(int)
+    public static void setMaxDaySessionNumbers(int)
+    public static void setMaxReportEventLength(int)
+    public static void setEnableConcurrentProcess(boolean)
+    public static void setCustomUserId(android.content.Context,java.lang.String)
+    public static void setNativeCrashDebugEnable(boolean)
+    public static void initNativeCrashReport(android.content.Context,java.lang.String)
+    public static java.lang.String getLocalMidOnly(android.content.Context)
+    public static void setXGProMode(boolean)
+    public static boolean isXGProMode()
+    public static void setCustomLogger(com.tencent.stat.StatCustomLogger)
+    public static boolean isReportEventsByOrder()
+    public static void setReportEventsByOrder(boolean)
+    public static int getNumEventsCachedInMemory()
+    public static void setNumEventsCachedInMemory(int)
+    public static long getFlushDBSpaceMS()
+    public static void setFlushDBSpaceMS(long)
+com.tencent.stat.StatCustomLogger:
+    public abstract void verbose(java.lang.Object)
+    public abstract void error(java.lang.Exception)
+com.tencent.stat.StatGameUser
+com.tencent.stat.StatNativeCrashReport:
+    public static final java.lang.String PRE_TAG_TOMBSTONE_FNAME
+    public native java.lang.String stringFromJNI()
+    public native boolean initJNICrash(java.lang.String)
+    public native void enableNativeCrashDebug(boolean)
+    public native void enableNativeCrash(boolean)
+    public native java.lang.String makeJniCrash()
+    public static java.lang.String onNativeCrashHappened()
+    public static void doNativeCrashTest()
+    public static void setNativeCrashEnable(boolean)
+    public static boolean isNativeCrashEnable()
+    public static void setNativeCrashDebugEnable(boolean)
+    public static boolean isNativeCrashDebugEnable()
+    public static void initNativeCrash(android.content.Context,java.lang.String)
+com.tencent.stat.StatService:
+    public StatService()
+    public static void trackBeginPage(android.content.Context,java.lang.String)
+    public static void trackEndPage(android.content.Context,java.lang.String)
+    public static void startNewSession(android.content.Context)
+    public static void stopSession()
+    public static void onResume(android.content.Context)
+    public static void setEnvAttributes(android.content.Context,java.util.Map)
+    public static void reportQQ(android.content.Context,java.lang.String)
+    public static void reportAccount(android.content.Context,com.tencent.stat.StatAccount)
+    public static void reportGameUser(android.content.Context,com.tencent.stat.StatGameUser)
+    public static boolean startStatService(android.content.Context,java.lang.String,java.lang.String)
+    public static void onPause(android.content.Context)
+    public static void reportError(android.content.Context,java.lang.String)
+    public static void reportException(android.content.Context,java.lang.Throwable)
+    public static void trackCustomKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static varargs void trackCustomBeginEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static varargs void trackCustomEndEvent(android.content.Context,java.lang.String,java.lang.String[])
+    public static void trackCustomBeginKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void trackCustomEndKVEvent(android.content.Context,java.lang.String,java.util.Properties)
+    public static void reportAppMonitorStat(android.content.Context,com.tencent.stat.StatAppMonitor)
+    public static void commitEvents(android.content.Context,int)
+    public static void testSpeed(android.content.Context)
+    public static void testSpeed(android.content.Context,java.util.Map)
+    public static void flushDataToDB(android.content.Context)
+com.tencent.stat.StatServiceImpl:
+    public StatServiceImpl()
+    public static void setContext(android.content.Context)
+    public static void trackBeginPage(android.content.Context,java.lang.String,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void trackEndPage(android.content.Context,java.lang.String,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void startNewSession(android.content.Context,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void stopSession()
+    public static void onResume(android.content.Context,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void setEnvAttributes(android.content.Context,java.util.Map)
+    public static void reportQQ(android.content.Context,java.lang.String,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void reportAccount(android.content.Context,com.tencent.stat.StatAccount,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void reportGameUser(android.content.Context,com.tencent.stat.StatGameUser,com.tencent.stat.StatSpecifyReportedInfo)
+    public static boolean startStatService(android.content.Context,java.lang.String,java.lang.String,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void onPause(android.content.Context,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void reportError(android.content.Context,java.lang.String,com.tencent.stat.StatSpecifyReportedInfo)
+    static void a(android.content.Context,com.tencent.stat.StatAccount,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void reportException(android.content.Context,java.lang.Throwable,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void trackCustomKVEvent(android.content.Context,java.lang.String,java.util.Properties,com.tencent.stat.StatSpecifyReportedInfo)
+    public static varargs void trackCustomBeginEvent(android.content.Context,java.lang.String,com.tencent.stat.StatSpecifyReportedInfo,java.lang.String[])
+    public static varargs void trackCustomEndEvent(android.content.Context,java.lang.String,com.tencent.stat.StatSpecifyReportedInfo,java.lang.String[])
+    public static void trackCustomBeginKVEvent(android.content.Context,java.lang.String,java.util.Properties,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void trackCustomEndKVEvent(android.content.Context,java.lang.String,java.util.Properties,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void reportAppMonitorStat(android.content.Context,com.tencent.stat.StatAppMonitor,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void commitEvents(android.content.Context,int)
+    public static void testSpeed(android.content.Context,java.util.Map,com.tencent.stat.StatSpecifyReportedInfo)
+    public static void flushDataToDB(android.content.Context)
+    static synthetic java.util.Map e()
+    static synthetic java.lang.String b(java.lang.String)
+    static synthetic java.lang.String f()
+    static synthetic java.lang.String g()
+    static synthetic java.lang.String c(java.lang.String)
+    static synthetic java.util.Map h()
+    static synthetic android.os.Handler i()
+com.tencent.stat.StatSpecifyReportedInfo:
+    public StatSpecifyReportedInfo()
+    public void setSendImmediately(boolean)
+    public void setVersion(java.lang.String)
+    public void setAppKey(java.lang.String)
+    public void setInstallChannel(java.lang.String)
+com.tencent.stat.a.a
+com.tencent.stat.a.b:
+    public void a(long)
+    public void a(java.util.Properties)
+com.tencent.stat.a.c:
+    public c(java.lang.String,java.lang.String[],java.util.Properties)
+com.tencent.stat.a.g
+com.tencent.stat.a.h
+com.tencent.stat.a.j
+com.tencent.stat.aa
+com.tencent.stat.ab
+com.tencent.stat.ac
+com.tencent.stat.common.StatConstants:
+    public static final java.lang.String VERSION
+    public static final java.lang.String MTA_SERVER
+    public static final java.lang.String MTA_STAT_URL
+    public static final java.lang.String MTA_COOPERATION_TAG
+    public static final int STAT_DB_VERSION
+    public static final int SDK_ONLINE_CONFIG_TYPE
+    public static final int USER_ONLINE_CONFIG_TYPE
+    public static final java.lang.String LOG_TAG
+    public static final int XG_PRO_VERSION
+    public StatConstants()
+com.tencent.stat.common.StatLogger:
+    public int getLogLevel()
+    public void setLogLevel(int)
+    public void setTag(java.lang.String)
+    public void verbose(java.lang.Object)
+    public void v(java.lang.Object)
+com.tencent.stat.common.b:
+    public static void a(android.content.Context,java.util.Map)
+com.tencent.stat.common.k:
+    public static java.lang.String h(android.content.Context)
+com.tencent.stat.common.p:
+    public static void b(android.content.Context,java.lang.String,java.lang.String)
+com.tencent.stat.g
+com.tencent.stat.i
+com.tencent.stat.l
+com.tencent.stat.m
+com.tencent.stat.n
+com.tencent.stat.o
+com.tencent.stat.p
+com.tencent.stat.q
+com.tencent.stat.r
+com.tencent.stat.s
+com.tencent.stat.u
+com.tencent.stat.w
+com.tencent.stat.x
+com.tencent.stat.y
+com.tencent.stat.z

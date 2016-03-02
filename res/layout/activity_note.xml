@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_book"
+    >
+
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关于计步器模式的说明：" 
+        android:textSize="20sp"
+        android:textColor="@color/myColor2"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	        android:text="由于系统与传感器型号的多样性，主要存在以下两种原因导致普通计步器停止工作：\na. 部分传感器检测到系统关屏后降低工作频率。\nb. 部分系统进入休眠状态后导致服务停止。\n手机计步神器提供了丰富的计步模式，以适应不同的手机，您可以根据自己的需要选择不同的计步模式。"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="模式详解：" 
+        android:textSize="20sp"
+        android:textColor="@color/myColor2"
+        android:layout_marginLeft="5dp"
+        />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:text="1. 关闭后台计步模式\n两次按下返回键，程序将运动记录保存，立即彻底退出，完全不在后台运行。\n2. 唤醒启动模式：\n退出程序后开启后台计步服务，当手机处于亮屏状态时计步。\n3. 模拟锁屏模式：\n该模式下将会出现锁屏与解锁界面，点击锁屏，屏蔽界面与按钮，此时的电源键可控制屏幕的开启和关闭，(若您的系统使用了第三方应用对屏幕操作进行了个性化，可能无法正常锁屏)\n4. 后台强制计步模式：\n退出程序后开启后台基本服务，禁止系统进行休眠状态。\n5. 后台智能节电模式：\n退出程序后开启后台基本服务,分析运动状态，自动休眠与唤醒。"
+
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+         />
+               
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小提示：" 
+        android:textSize="20sp"
+        android:textColor="#EEAD0E"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	        android:text="1. 耗电量：  模式5 &lt; 模式4 &lt; 模式3\n2. 点击标题栏应用图标可直接查看历史记录。\n3. 为适应模拟锁屏模式，本程序中电源键仅在锁屏模式下有效。\n4. 对步伐计算的疑问可参考菜单中的计步原理。"
+        android:layout_marginLeft="15dp"
+        android:textSize="15sp"
+         />
+                
+                
+                
+                
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

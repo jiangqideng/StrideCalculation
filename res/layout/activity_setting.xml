@@ -1,0 +1,209 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_book"
+    >
+    
+	<RelativeLayout
+	    android:id="@+id/extraLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	     >
+	</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_setting_items1"
+        android:id="@+id/item1"
+         >
+
+	<LinearLayout
+	    android:layout_width="0sp"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_weight="3"
+	     >
+	     
+	<TextView
+        android:id="@+id/textViewSetting1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="后台计步"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        />
+	<TextView
+            android:id="@+id/textViewSetting2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="不同的计步模式选择"
+            android:textColor="@color/myColor2"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp"
+            android:layout_marginBottom="10dp"
+            />
+	    
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/textViewWorkType"
+	    android:layout_width="0sp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="2"
+	    android:textColor="#3B3B3B"
+	    android:gravity="center"
+	    android:textSize="20sp"
+	    />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/bg_setting_items2"
+        android:id="@+id/item2"
+        >
+        
+	<LinearLayout
+	    android:layout_width="0sp"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_weight="2"
+	     >
+	     
+	<TextView
+        android:id="@+id/textViewSetting3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="步长"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+	<TextView
+            android:id="@+id/textViewSetting5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="用于计算累计距离"
+            android:textColor="@color/myColor2"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp"
+            android:layout_marginBottom="10dp"
+            />
+	    
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/textViewSetting7"
+	    android:layout_width="0sp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:textColor="#3B3B3B"
+	    android:gravity="center"
+	    android:textSize="25sp"
+	    />
+
+
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/bg_setting_items1"
+        android:id="@+id/item3"
+        >
+        
+	<LinearLayout
+	    android:layout_width="0sp"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_weight="2"
+	     >
+	     
+	<TextView
+        android:id="@+id/textViewSetting6"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="体重"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+	<TextView
+            android:id="@+id/textViewSetting8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="用于计算卡路里消耗"
+            android:textColor="@color/myColor2"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp"
+            android:layout_marginBottom="10dp"
+            />
+	    
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/textViewSetting4"
+	    android:layout_width="0sp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:textColor="#3B3B3B"
+	    android:gravity="center"
+	    android:textSize="25sp"
+	    />
+
+
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/bg_setting_items2"
+        android:id="@+id/item4"
+        >
+        
+	<LinearLayout
+	    android:layout_width="0sp"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_weight="2"
+	     >
+	     
+	<TextView
+        android:id="@+id/textViewSetting9"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="计步灵敏度"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+	<TextView
+            android:id="@+id/textViewSetting11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="以适应不同手机传感器的差异"
+            android:textColor="@color/myColor2"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp"
+            android:layout_marginBottom="10dp"
+            />
+	    
+	</LinearLayout>
+
+	<TextView
+	    android:id="@+id/textViewSetting10"
+	    android:layout_width="0sp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:textColor="#3B3B3B"
+	    android:gravity="center"
+	    android:textSize="25sp"
+	    />
+
+
+    </LinearLayout>
+    
+</LinearLayout>
