@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.stridecalculation"
+    package="com.jqd.stridecalculation.ui"
     android:versionCode="3"
     android:versionName="1.2" >
 
@@ -24,7 +24,7 @@
         >
         
 
-        <activity android:name="com.example.stridecalculation.MainActivity" 
+        <activity android:name="com.jqd.stridecalculation.ui.MainActivity" 
             android:label="@string/app_name"
             >
             <intent-filter>
@@ -36,31 +36,31 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.example.stridecalculation.BackgroundService" >
+        <service android:name="com.jqd.stridecalculation.task.BackgroundService" >
         </service>
 
         <activity
-            android:name="com.example.stridecalculation.SettingsActivity"
+            android:name="com.jqd.stridecalculation.ui.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
         <activity
-            android:name="com.example.stridecalculation.SettingActivity"
+            android:name="com.jqd.stridecalculation.ui.SettingActivity"
             android:label="@string/title_activity_setting" >
         </activity>
         <activity
-            android:name="com.example.stridecalculation.HistoryActivity"
+            android:name="com.jqd.stridecalculation.ui.HistoryActivity"
             android:label="@string/title_activity_history" >
         </activity>
         <activity
-            android:name="com.example.stridecalculation.NoteActivity"
+            android:name="com.jqd.stridecalculation.ui.NoteActivity"
             android:label="@string/title_activity_note" >
         </activity>
         <activity
-            android:name="com.example.stridecalculation.TheoryActivity"
+            android:name="com.jqd.stridecalculation.ui.TheoryActivity"
             android:label="@string/title_activity_theory" >
         </activity>
         <activity
-            android:name="com.example.stridecalculation.AboutActivity"
+            android:name="com.jqd.stridecalculation.ui.AboutActivity"
             android:label="@string/title_activity_about" >
         </activity>
         

@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15sp"
             android:gravity="center"
-            android:text="今天还没开始运动哦，赶紧动起来吧!"
+            android:text=""
             android:textColor="#ff4444" />
 
         

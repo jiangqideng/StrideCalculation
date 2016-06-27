@@ -1,26 +1,26 @@
-# view AndroidManifest.xml #generated:62
--keep class com.example.stridecalculation.AboutActivity { <init>(...); }
-
 # view AndroidManifest.xml #generated:39
--keep class com.example.stridecalculation.BackgroundService { <init>(...); }
+-keep class com.jqd.stridecalculation.task.BackgroundService { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.jqd.stridecalculation.ui.AboutActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:50
--keep class com.example.stridecalculation.HistoryActivity { <init>(...); }
+-keep class com.jqd.stridecalculation.ui.HistoryActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:27
--keep class com.example.stridecalculation.MainActivity { <init>(...); }
+-keep class com.jqd.stridecalculation.ui.MainActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:54
--keep class com.example.stridecalculation.NoteActivity { <init>(...); }
+-keep class com.jqd.stridecalculation.ui.NoteActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:46
--keep class com.example.stridecalculation.SettingActivity { <init>(...); }
+-keep class com.jqd.stridecalculation.ui.SettingActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:42
--keep class com.example.stridecalculation.SettingsActivity { <init>(...); }
+-keep class com.jqd.stridecalculation.ui.SettingsActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:58
--keep class com.example.stridecalculation.TheoryActivity { <init>(...); }
+-keep class com.jqd.stridecalculation.ui.TheoryActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:71
 -keep class com.qq.e.ads.AdActivity { <init>(...); }
